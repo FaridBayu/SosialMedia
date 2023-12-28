@@ -1,0 +1,71 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/abstact-hexagon-background-memphis-style_1017-31955.jpg?w=826&t=st=1703065808~exp=1703066408~hmac=6e3c64191f0d41325c1cb18563c850988554a8243e27c099a1d471c9b579766d');
+  background-size: cover;
+  /* Menyesuaikan gambar untuk mencakup seluruh halaman */
+  background-repeat: no-repeat;
+  /* Menghindari pengulangan gambar */
+  background-attachment: fixed;
+  /* Membuat gambar tetap terlihat saat halaman di-scroll */
+  font-family: Arial, sans-serif;
+}
+
+.container{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.social-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.social-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.social-icon {
+  font-size: 30px;
+  color: #333;
+}
+
+.social-name {
+  margin-top: 5px;
+}
+
+/* Responsive styles */
+ @media (max-width: 768px) {
+  .social-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-item {
+    width: 100%;
+  }
+}
+.footer {
+  color: white;
+  background-color: #000666;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+}

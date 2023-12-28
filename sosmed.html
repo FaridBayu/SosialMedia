@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>profil By me</title>
+  <link rel="stylesheet" href="sosmed.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+</head>
+
+<body>
+  <!-- Navbar-->
+  <nav class="navbar navbar-dark" style="background-color: #000666;">
+    <a class="navbar-brand" href="#"><b>Profil By Me</title>
+    </b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Home.html">Beranda <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sosmed.htm">Sosial Media</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="card social-card">
+      <div class="card-body">
+        <h2>Sosial Media :</h2>
+        <br>
+        <ul class="social-list">
+          <li class="social-item" onclick="goToSocialMedia('https://twitter.com/')">
+            <i class="fab fa-twitter social-icon"></i>
+            <div class="social-name">Twitter</div>
+          </li>
+          <li class="social-item" onclick="goToSocialMedia('https://www.instagram.com/')">
+            <i class="fab fa-instagram social-icon"></i>
+            <div class="social-name">Instagram</div>
+          </li>
+          <li class="social-item" onclick="goToSocialMedia('https://www.tiktok.com/')">
+            <i class="fab fa-tiktok social-icon"></i>
+            <div class="social-name">TikTok</div>
+          </li>
+          <li class="social-item" onclick="goToSocialMedia('https://www.facebook.com/')">
+            <i class="fab fa-facebook social-icon"></i>
+            <div class="social-name">Facebook</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+     <!-- Navbar Bawah -->
+<div class="footer">
+  <p>Dibuat Oleh:
+    <br>Muhammad Farid Bayu Hadi (2200016048)
+    <br>Kerfin Aprian (2200016030)
+  </p>
+</div>
+    
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    function goToSocialMedia(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+
+</body>
+
+</html>
